@@ -4,8 +4,8 @@ This repository hosts the GitHub Pages site for techGnosisCore. The site dynamic
 
 ## Folder Structure
 
+```graphql
 techGnosisCore.github.io/ 
-
 ├── index.html # The main HTML page 
 ├── css/ 
 │ └── styles.css # The CSS styling for the site 
@@ -13,6 +13,7 @@ techGnosisCore.github.io/
 │ └── main.js # The JavaScript that fetches and displays the repository list 
 ├── README.md # This file 
 └── .gitignore # Files and folders to ignore in this repository
+```
 
 
 ## How It Works
