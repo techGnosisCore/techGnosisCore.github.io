@@ -1,5 +1,6 @@
 /* css/styles.css */
 
+/* Default (Light Mode) Styles */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -50,4 +51,35 @@ footer {
   position: fixed;
   width: 100%;
   bottom: 0;
+}
+
+/* Dark Mode Styles */
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #121212;
+    color: #e0e0e0;
+  }
+
+  header {
+    background: #1e1e1e;
+    color: #e0e0e0;
+  }
+
+  main {
+    background: #121212;
+  }
+
+  #repo-list li {
+    background: #1e1e1e;
+    border: 1px solid #333;
+  }
+
+  #repo-list li a {
+    color: #81a1c1;
+  }
+
+  footer {
+    background: #1e1e1e;
+    color: #e0e0e0;
+  }
 }
